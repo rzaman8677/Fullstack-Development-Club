@@ -1,0 +1,50 @@
+/* components/Technology/Technology.module.css */
+
+.technologies {
+  padding: 50px 20px;
+  background-color: #f0f2f5;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: #333;
+}
+
+.technologyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.technologyCard {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.technologyCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+}
+
+.techImage {
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.techName {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}

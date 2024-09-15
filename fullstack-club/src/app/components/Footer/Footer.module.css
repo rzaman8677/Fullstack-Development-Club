@@ -1,0 +1,21 @@
+/* components/Footer/Footer.module.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footerSocial {
+    margin-top: 10px;
+  }
+  
+  .footerSocial a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .footerSocial a:hover {
+    color: #61dafb;
+  }
+  

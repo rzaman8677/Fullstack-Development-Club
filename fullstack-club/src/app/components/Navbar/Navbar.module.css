@@ -1,0 +1,103 @@
+/* General Styling */
+.navbar {
+  background-color: #2c3e50;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+  transition: background-color 0.3s ease; /* Smooth transitions */
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbarLogo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbarLogo:hover {
+  color: #61dafb; /* Enhance logo interaction */
+}
+
+.navbarMenu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  transition: right 0.3s ease; /* Smooth menu slide */
+}
+
+.navbarItem {
+  margin-left: 30px;
+}
+
+.navbarLink {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: capitalize;
+}
+
+.navbarLink:hover {
+  color: #fff;
+  background-color: #61dafb; /* Hover effect for links */
+}
+
+/* Active link styling */
+.navbarLink.active {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/* Hamburger Menu Icon */
+.mobileIcon {
+  display: none;
+  cursor: pointer;
+}
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbarMenu {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: -100%;
+      background-color: #2c3e50;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      transition: right 0.3s ease;
+  }
+
+  .navbarMenu.active {
+      right: 0;
+  }
+
+  .navbarItem {
+      margin: 20px 0;
+  }
+
+  .mobileIcon {
+      display: block;
+  }
+}
+
+/* Hover Effects for mobile */
+.navbarLink:hover {
+  color: #2c3e50;
+  background-color: #fff;
+}

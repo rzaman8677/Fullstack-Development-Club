@@ -1,0 +1,20 @@
+/* components/About/About.module.css */
+.about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: blue;
+  }
+  
+  .aboutText {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
