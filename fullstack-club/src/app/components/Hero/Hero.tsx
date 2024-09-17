@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1>Developing the Future</h1>
+        <h1>Full Stack Development Club/Web Dev</h1>
         <p>
           Join us in exploring the world of full stack development.
         </p>

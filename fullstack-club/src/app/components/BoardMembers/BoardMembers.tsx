@@ -19,17 +19,17 @@ const BoardMembers: React.FC = () => {
     {
       name: 'Sai Chandra',
       position: 'Vice President',
-      image: '/images/member_sai.jpg',
+      image: '/images/sai.jpg',
     },
     {
       name: 'Leo Chen',
       position: 'Vice President',
-      image: '/images/member_leo.jpg',
+      image: '/images/leo.jpg',
     },
     {
-      name: 'Rishi Selvemani',
+      name: 'Parth Shete',
       position: 'Member at Large',
-      image: '/images/member_rishi.jpg',
+      image: '/images/parth.jpg',
     },
   ];
 
